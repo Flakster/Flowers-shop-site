@@ -1,0 +1,53 @@
+/* rules for the main page body */
+
+body{
+  min-width: 385px;
+  background: url("../images/greenbg.png") center center/100% 100% no-repeat;
+}
+
+/* rules for the main container */
+
+main{
+  width: 90vw;
+  height: 100vh;
+}
+
+/* rules for the main page header */
+
+
+.brand-div {
+  width: 200px;
+}
+
+.menu li a,
+.icons a {
+  transition: 0.3s;
+}
+
+.menu li a:hover,
+.icons a:hover  {
+  /* color: rgb(211, 211, 211) !important; */
+  color: mistyrose !important;
+  text-shadow: 1px 1px #a1a1a1;
+}
+
+.like-btn,
+.menu-btn {
+  background-color: #8ED456;
+}
+
+.cart-btn {
+  background-color: #D8055A;
+}
+
+
+/* rules for the main-img */
+
+
+.main-img {
+  right: 0;
+  bottom: 0;
+  width: 60vw;
+  height: 85vh;
+  overflow: hidden;
+}
