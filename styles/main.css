@@ -2,26 +2,22 @@
 
 body{
   color: white;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
-  background: url("../images/greenbg.png") center center/100% 100% no-repeat;
 }
 
 a {
   color:white;
   text-decoration: none;
-  transition-property: color;
-  transition-duration: 0.3s;
+  transition: 0.3s;
 }
 
 a:hover {
-  color: pink;
-  text-shadow: 1px 1px #a1a1a1;
+  color: mistyrose;
+  text-shadow: 1px 1px magenta;
 }
 
 h1,h2,h3 {
-  /* font-family: 'Cormorant Garamond', serif; */
-  font-family: 'Times New Roman', Times, serif;
   font-weight: 100;
 }
 
@@ -29,19 +25,37 @@ h1,h2,h3 {
 
 .main-container{
   position: relative;
-  width: 85vw;
+  height: 200vh;
+  width: calc(100vw-15px);
+  margin: 0 auto;
+}
+
+.page1 {
+  position: relative;
+  width: 100%;
   height: 100vh;
+  margin: 0 auto;
+  background: url("../images/greenbg.png") center center/100% 100% no-repeat;
+}
+
+.frame {
+  position: relative;
+  width: 85%;
+  height:100%;
   margin: 0 auto;
 }
 
 /* rules for the main page header */
 
 header {
-  margin-top: 2vh;
+  position: absolute;
+  top: 2vh;
+  width:100%;
 }
 
 .nav-bar {
   display: flex;
+  width: 100%;
   align-items: center;
 }
 
@@ -62,7 +76,7 @@ header {
   display: inline-block;
   font-size: 12px;
   padding: 10px;
-  border-radius: 50%;
+  border-radius: 51%/50%;
   margin: 0 10px;
 } 
 
@@ -83,6 +97,7 @@ header {
   flex-direction: column;
   position: absolute;
   top: 40vh;
+  bottom: 5vh;
 }
 
 .caption {
@@ -101,6 +116,7 @@ header {
   background-color: #D8055A;
   margin-top: 25px;
   border-radius: 20px;
+  margin-bottom: auto;
 }
 
 
@@ -124,8 +140,30 @@ header {
   height: 100%; 
 }
 
+/* rules for the Best Offers section */
 
-/* media query for mobile devices screen*/
+.best-offers{
+  position: absolute;
+  top: 100vh;
+  max-width: 100%;
+  /* height: 100vh; */
+  color: black;
+  /* background: white; */
+}
+
+.best-offers-bar {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  border: 1px solid blue;
+}
+
+.arrows i {
+  color: lightgray;
+}
+
+/* media query for mobile devices screen     ****************/
 
 @media all and (max-width: 1024px){
 
@@ -134,7 +172,7 @@ header {
   .main-container{
     position: relative;
     width: 100vw;
-    height: 100vh;
+    margin: 0;
   }
   
   /* rules for the navigation bar*/
@@ -149,8 +187,6 @@ header {
   }
 
   .icon-btn {
-    font-size: 10px;
-    padding: 8px;
     margin: 0 1vw;
   }
   
@@ -158,7 +194,6 @@ header {
   
   .main-text {
     display:flex;
-    flex-wrap: nowrap;
     align-items: center;
     width: 100vw;
     top: 15vh;
@@ -172,10 +207,17 @@ header {
     width: 40%;
   }
 
+  .phone {
+    display: none;
+  }
+
  
   /* rules for the main image */
   
   .main-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     position: absolute;
     width: 100vw;
     height: 55vh;
@@ -183,23 +225,41 @@ header {
   }
   
   .main-img {
-    position: absolute;
     top: 0;
-    left: -5vw;
-    right:-5vw;
+    right: auto;
+    width: 150%;
     height: auto; 
+  }
+
+  /* rules for the Best Offers section */
+
+  .best-offers {
+    display: inline-flex;
+    width: 90%;
+    border: 1px solid red;
+  }
+
+  .best-offers-bar {
+    width: 90%
   }
   
 }
 
-@media all and (max-width: 500px){
+/* media query for small screen devices         ***************/
+
+@media all and (max-width: 450px){
 
   .brand-header{
     font-size: 15px;
   }
 
+  .icon-btn {
+    font-size: 10px;
+    padding: 8px;
+  }
+
   .caption {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .sub-caption {
@@ -207,7 +267,13 @@ header {
   } 
 
   .order-btn {
-    font-size: 15px ;
+    width: 50%;
+    font-size: 15px;
+    padding: 6px;
     margin-top: 15px;
+  }
+
+  .main-img {
+    top: 10vh;
   }
 }
