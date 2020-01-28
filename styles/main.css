@@ -2,7 +2,6 @@
 
 body{
   color: white;
-  min-width: 385px;
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
   background: url("../images/greenbg.png") center center/100% 100% no-repeat;
@@ -12,11 +11,11 @@ a {
   color:white;
   text-decoration: none;
   transition-property: color;
-  transition-duration: 0,5s;
+  transition-duration: 0.3s;
 }
 
 a:hover {
-  color: mistyrose;
+  color: pink;
   text-shadow: 1px 1px #a1a1a1;
 }
 
@@ -38,7 +37,7 @@ h1,h2,h3 {
 /* rules for the main page header */
 
 header {
-  margin-top: 40px;
+  margin-top: 2vh;
 }
 
 .nav-bar {
@@ -61,7 +60,8 @@ header {
 
 .icon-btn {
   display: inline-block;
-  padding: 7px;
+  font-size: 12px;
+  padding: 10px;
   border-radius: 50%;
   margin: 0 10px;
 } 
@@ -101,7 +101,6 @@ header {
   background-color: #D8055A;
   margin-top: 25px;
   border-radius: 20px;
-  box-shadow: 5 5 5px rgba(0,0,0,0.5);
 }
 
 
@@ -141,18 +140,25 @@ header {
   /* rules for the navigation bar*/
 
   .nav-bar {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
   }
   
   .menu {
     display: none;
   }
+
+  .icon-btn {
+    font-size: 10px;
+    padding: 8px;
+    margin: 0 1vw;
+  }
   
   /* rules for the main text */
   
   .main-text {
-    display: flex;
+    display:flex;
+    flex-wrap: nowrap;
     align-items: center;
     width: 100vw;
     top: 15vh;
@@ -179,8 +185,29 @@ header {
   .main-img {
     position: absolute;
     top: 0;
-    width: 120%;
+    left: -5vw;
+    right:-5vw;
     height: auto; 
   }
   
+}
+
+@media all and (max-width: 500px){
+
+  .brand-header{
+    font-size: 15px;
+  }
+
+  .caption {
+    font-size: 40px;
+  }
+
+  .sub-caption {
+    font-size: 18px;
+  } 
+
+  .order-btn {
+    font-size: 15px ;
+    margin-top: 15px;
+  }
 }
