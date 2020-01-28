@@ -1,35 +1,70 @@
 /* rules for the main page body */
 
 body{
+  color: white;
   min-width: 385px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
   background: url("../images/greenbg.png") center center/100% 100% no-repeat;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 0,5s;
+}
+
+a:hover {
+  color: mistyrose;
+  text-shadow: 1px 1px #a1a1a1;
+}
+
+h1,h2,h3 {
+  /* font-family: 'Cormorant Garamond', serif; */
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
 }
 
 /* rules for the main container */
 
-main{
-  width: 90vw;
+.main-container{
+  position: relative;
+  width: 85vw;
   height: 100vh;
+  margin: 0 auto;
 }
 
 /* rules for the main page header */
 
-
-.brand-div {
-  width: 200px;
+header {
+  margin-top: 40px;
 }
 
-.menu li a,
-.icons a {
-  transition: 0.3s;
+.nav-bar {
+  display: flex;
+  align-items: center;
 }
 
-.menu li a:hover,
-.icons a:hover  {
-  /* color: rgb(211, 211, 211) !important; */
-  color: mistyrose !important;
-  text-shadow: 1px 1px #a1a1a1;
+.brand-header {
+  margin-right: auto;
 }
+
+.menu {
+  display: block;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.icon-btn {
+  display: inline-block;
+  padding: 7px;
+  border-radius: 50%;
+  margin: 0 10px;
+} 
 
 .like-btn,
 .menu-btn {
@@ -41,13 +76,111 @@ main{
 }
 
 
+/* rules for the main text */
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40vh;
+}
+
+.caption {
+  text-align: center;
+  font-size: 60px;
+}
+
+.sub-caption {
+  font-size: 25px;
+}
+
+.order-btn {
+  width: 60%;
+  text-align: center;
+  padding: 10px;
+  background-color: #D8055A;
+  margin-top: 25px;
+  border-radius: 20px;
+  box-shadow: 5 5 5px rgba(0,0,0,0.5);
+}
+
+
 /* rules for the main-img */
 
 
-.main-img {
+.main-img-container {
+  position: absolute;
   right: 0;
   bottom: 0;
   width: 60vw;
-  height: 85vh;
+  height: 80vh;
   overflow: hidden;
+}
+
+.main-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 100%;
+  height: 100%; 
+}
+
+
+/* media query for mobile devices screen*/
+
+@media all and (max-width: 1024px){
+
+  /* rules for the main container */
+
+  .main-container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  /* rules for the navigation bar*/
+
+  .nav-bar {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .menu {
+    display: none;
+  }
+  
+  /* rules for the main text */
+  
+  .main-text {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    top: 15vh;
+  }
+
+  .sub-caption {
+    text-align: center;
+  }
+
+  .order-btn {
+    width: 40%;
+  }
+
+ 
+  /* rules for the main image */
+  
+  .main-img-container {
+    position: absolute;
+    width: 100vw;
+    height: 55vh;
+    overflow: hidden;
+  }
+  
+  .main-img {
+    position: absolute;
+    top: 0;
+    width: 120%;
+    height: auto; 
+  }
+  
 }

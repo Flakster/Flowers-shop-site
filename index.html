@@ -5,44 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Flowers shop</title>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./styles/reset.css">
   <link rel="stylesheet" href="./styles/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|EB+Garamond&display=swap" rel="stylesheet"> 
 </head>
-<body class="main-body text-white">
-  <main class="position-relative mx-auto">
-    <header class="mt-4">
-      <nav class="nav-bar d-flex">
-        <img class="float-left" src="./images/rose-logo.png" alt="logo">
-        <h1 class="brand-header px-2 align-self-center mr-auto">Fleur Flowers</h1>
-        <ul class="menu align-self-center d-none d-lg-block">
-          <li class="mx-3 float-left"><a class="text-white text-decoration-none" href="">Crafts Gallery</a></li>
-          <li class="mx-3 float-left"><a class="text-white text-decoration-none" href="">Color Catalog</a></li>
-          <li class="mx-3 float-left"><a class="text-white text-decoration-none" href="">Contact</a></li>
+<body class="main-body">
+  <main class="main-container">
+    <header>
+      <nav class="nav-bar">
+        <img class="rose-logo" src="./images/rose-logo.png" alt="logo">
+        <h1 class="brand-header">Fleur Flowers</h1>
+        <ul class="menu">
+          <li><a href="">Crafts Gallery</a></li>
+          <li><a href="">Color Catalog</a></li>
+          <li><a href="">Contact</a></li>
         </ul>
         <div class="icons">
-          <div class="menu-btn rounded-circle p-3 mx-2 float-left d-block d-lg-none">
-            <a class="text-white text-decoration-none" href="">
+          <div class="icon-btn menu-btn">
+            <a href="">
               <i class="fa fa-bars" aria-hidden="true"></i>
             </a>
           </div>
-          <div class="like-btn rounded-circle p-3 mx-2 float-left">
-            <a class="text-white text-decoration-none" href="">
+          <div class="icon-btn like-btn">
+            <a href="">
               <i class="fa fa-heart" aria-hidden="true"></i>
             </a>
           </div>
-          <div class="cart-btn rounded-circle p-3 mx-2 float-left">
-            <a class="text-white text-decoration-none" href="">
+          <div class="icon-btn cart-btn">
+            <a href="">
               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
             </a>
           </div>
         </div>
       </nav>
     </header  >
-    <div class="main-img position-absolute">
-      <img class="img-fluid" src="./images/tnjarbouquet.png" alt="">
+    <div class="main-img-container position-absolute">
+      <img class="main-img" src="./images/tnjarbouquet.png" alt="">
+    </div>
+    <div class="main-text">
+      <h2 class="caption">Autor Bouquets</h2>
+      <h3 class="sub-caption">From certified florist designers</h3>
+      <div class="order-btn">
+        <a href="">ORDER INQUIRY</a>
+      </div>
     </div>
   </main>
 </body>
