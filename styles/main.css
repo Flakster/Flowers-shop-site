@@ -148,20 +148,98 @@ header {
 
 .best-offers{
   position: absolute;
-  max-width: 100%;
+  width: 100%;
   color: black;
 }
 
 .best-offers-bar {
+  position: relative;
   display: flex;
-  max-width: 100%;
+  top: 4vh;
+  width: 100%;
   justify-content: space-between;
-  font-size: 1.5rem;
-  border: 1px solid blue;
+  font-size: 1.8rem;
 }
 
 .arrows i {
   color: lightgray;
+}
+
+.offers {
+  display: flex;
+  position: relative;
+  top: 10vh;
+  width:100%;
+}
+
+.offer {
+  border: 1px solid whitesmoke;
+  background-color: #fcfcfc;
+}
+
+
+.left-offer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  height: 70vh;
+  margin-right: 1vw;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.left-offer-info {
+  position: relative;
+}
+
+.name-price {
+  display: block;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.purple-cart {
+  color: #d8055a;
+}
+
+.discount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  color: white;
+  font-size: 16px;
+  background-color: #55bf00;
+  border-radius: 50%;
+}
+
+ .left-offer img{
+    align-self: center;
+    max-width:100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.offers-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 1rem;
+}
+
+.right-offer {
+  display: flex;
+  justify-content: space-between;
+  flex: 1; 
+  padding: 1rem 1rem 0 1rem;
+}
+
+.upper-right-offer {
+  margin-bottom: 1rem;
+}
+
+.lower-right-offer {
+  margin-top: 1rem;
 }
 
 /* media query for mobile devices screen     ****************/
@@ -238,13 +316,28 @@ header {
   /* rules for the Best Offers section */
 
   .best-offers {
-    display: inline-flex;
     width: 100%;
   }
 
   .best-offers-bar {
-    width: 90%
+    width: 90%;
+    margin: 0 auto;
   }
+  
+  .offers {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .offer-left {
+    margin: 0;
+  }
+
+  .offers-right {
+    display: none;
+  }
+
+
   
 }
 
