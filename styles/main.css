@@ -73,10 +73,15 @@ header {
 .icon-btn {
   display: inline-block;
   font-size: 12px;
-  padding: 10px;
-  border-radius: 51%/50%;
+  padding: 0.7rem;
+  border-radius: 50%;
   margin: 0 10px;
 } 
+
+.menu-btn {
+  display: none;
+  padding: 0.65rem 0.7rem 0.65rem 0.7rem;
+}
 
 .like-btn,
 .menu-btn {
@@ -169,7 +174,9 @@ header {
   display: flex;
   position: relative;
   top: 10vh;
+  height: 70vh;
   width:100%;
+  overflow: hidden;
 }
 
 .offer {
@@ -183,7 +190,6 @@ header {
   flex-direction: column;
   justify-content: space-between;
   flex: 1;
-  height: 70vh;
   margin-right: 1vw;
   padding: 1rem 1rem 0 1rem;
 }
@@ -209,13 +215,14 @@ header {
   padding: 1rem 0.5rem 1rem 0.5rem;
   color: white;
   font-size: 16px;
+  font-weight: 600;
   background-color: #55bf00;
   border-radius: 50%;
 }
 
  .left-offer img{
     align-self: center;
-    max-width:100%;
+    max-width: 100%;
     height: auto;
     overflow: hidden;
 }
@@ -224,14 +231,26 @@ header {
   display: flex;
   flex-direction: column;
   flex: 1;
+  width: 100%;
   margin-left: 1rem;
 }
 
 .right-offer {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  flex: 1; 
+  flex: 1;   
   padding: 1rem 1rem 0 1rem;
+}
+
+.right-offer-info {
+  flex: 1;
+}
+
+.right-offer img{
+  height: 100%;
+  width: auto;
+  overflow: hidden;
 }
 
 .upper-right-offer {
@@ -266,6 +285,10 @@ header {
   
   .menu {
     display: none;
+  }
+
+  .menu-btn {
+    display: inline;
   }
 
   .icon-btn {

@@ -1,0 +1,120 @@
+/* rules for the body */
+
+body {
+  color: white;
+  background: url("../images/greenbg.png") center center/100% repeat;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: mistyrose;
+  text-shadow: 1px 1px magenta;
+}
+
+h1,h2,h3 {
+  font-weight: 100;
+}
+
+/* rules for the main container */
+
+.main-container{
+
+}
+
+/* rules for the catalog page header */
+
+header {
+  position: absolute;
+  top: 2vh;
+  width:100%;
+}
+
+.nav-bar {
+  display: flex;
+  width: 85%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.brand-header {
+  margin-right: auto;
+}
+
+.menu {
+  display: block;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.icon-btn {
+  display: inline-block;
+  font-size: 12px;
+  padding: 0.7rem;
+  border-radius: 50%;
+  margin: 0 10px;
+} 
+
+.menu-btn {
+  display: none;
+  padding: 0.65rem 0.7rem 0.65rem 0.7rem;
+}
+
+.like-btn,
+.menu-btn {
+  background-color: #8ED456;
+}
+
+.cart-btn {
+  background-color: #D8055A;
+}
+
+.flowers-catalog {
+  position: relative;
+  top: 10vh;
+  color: black;
+  background-color: white;
+  width: 100%;
+}
+
+.page-header {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* media query for mobile devices screen     ****************/
+
+@media all and (max-width: 1024px){
+
+  /* rules for the main container */
+
+  
+  /* rules for the navigation bar*/
+
+  .nav-bar {
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .menu {
+    display: none;
+  }
+
+  .menu-btn {
+    display: inline;
+  }
+
+  .icon-btn {
+    margin: 0 1vw;
+  }
+
