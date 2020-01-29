@@ -25,7 +25,7 @@ h1,h2,h3 {
 /* rules for the main container */
 
 .main-container{
-
+  position: relative;
 }
 
 /* rules for the catalog page header */
@@ -80,7 +80,8 @@ header {
 
 .flowers-catalog {
   position: relative;
-  top: 10vh;
+  height: 500vh;
+  top: 15vh;
   color: black;
   background-color: white;
   width: 100%;
@@ -88,8 +89,67 @@ header {
 
 .page-header {
   display: block;
+  position: relative;
+  top: 10vh;
+  width: 85%;
+  font-size: 1.8rem;
+  margin: 0 auto;
+}
+
+.main-box {
+  display: flex;
+  position: relative;
+  top: 15vh; 
   width: 85%;
   margin: 0 auto;
+}
+
+.filter-box {
+  flex: 1;
+}
+
+.results-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 3;
+}
+
+.result {
+  background-color: #fcfcfc;
+  border: 1px solid whitesmoke;
+  width: 31%;
+}
+
+.result1 { margin: 0 0.5rem 0.5rem 0; }
+.result2 { margin: 0 0.5rem 0.5rem 0.5rem; }
+.result3 { margin: 0 0 0.5rem 0.5rem; }
+.result4 { margin: 0.5rem 0.5rem 0 0; }
+.result5 { margin: 0.5rem 0.5rem 0 0.5rem; }
+.result6 { margin: 0.5rem 0 0 0.5rem; }
+
+
+.result i {
+  display: block;
+  margin: 1rem;
+  font-size: 0.9rem;
+  color: #D8055A;
+}
+
+.img-frame {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.result img {
+  width: 100%;
+  height: auto;
+}
+
+.result span {
+  display: block;
+  font-weight: 600;
+  margin-left: 1rem;
 }
 
 /* media query for mobile devices screen     ****************/
