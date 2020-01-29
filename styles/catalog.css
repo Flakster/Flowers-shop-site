@@ -80,8 +80,8 @@ header {
 
 .flowers-catalog {
   position: relative;
-  height: 500vh;
-  top: 15vh;
+  top: 3.5rem;
+  height: 65rem;
   color: black;
   background-color: white;
   width: 100%;
@@ -90,16 +90,30 @@ header {
 .page-header {
   display: block;
   position: relative;
-  top: 10vh;
+  top: 3rem;
   width: 85%;
   font-size: 1.8rem;
   margin: 0 auto;
 }
 
+.funnel {
+  display: none;
+  position: relative;
+  text-align: center;
+  top: 2rem;
+  width: 85%;  
+  font-size: 1.2rem;
+  padding: 0.7rem 0;
+  margin: 0 auto;
+  color: #55bf00;
+  border: 1px solid #55bf00;
+  border-radius: 0.3rem;
+}
+
 .main-box {
   display: flex;
   position: relative;
-  top: 15vh; 
+  top: 5rem; 
   width: 85%;
   margin: 0 auto;
 }
@@ -298,7 +312,28 @@ header {
   margin: 0;
 }
 
-/* media query for mobile devices screen     ****************/
+.pagination {
+  display: none;
+  position: relative;
+  top: 6rem;
+  width: 85%;
+  margin: auto;
+}
+
+.ball {
+  display: inline-block;
+  width: 15px;
+  height:15px;
+  background: #dbf2bf;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+}
+
+.ball1 {
+  background: #55bf00;
+}
+
+/* media query for mobile devices screen */
 
 @media all and (max-width: 1024px){
 
@@ -323,4 +358,77 @@ header {
   .icon-btn {
     margin: 0 1vw;
   }
+  /* rules for the header  */
 
+  .page-header {
+    top: 1.2rem;
+  }
+
+  .pagination {
+    display: block;
+  }
+
+  .flowers-catalog {
+    top: 2.3;
+    height: 50rem;
+  }
+
+  .funnel {
+    display: block;
+  }
+
+  /* rules for filter box */
+
+  .filter-box {
+    display: none;
+  }
+
+  /* rules for results box */
+
+  .result {
+    display: none;
+    width: 100%;
+  }
+
+  .result1 {
+    display: block;
+  }
+
+  .img-frame {
+    position: relative;
+    width: 50%;
+    height: 45vw;
+    margin: 0 auto;
+  }
+}
+
+/* media query for small screen devices         ***************/
+
+@media all and (max-width: 450px){
+
+  .brand-header{
+    font-size: 15px;
+  }
+
+  .icon-btn {
+    font-size: 10px;
+    padding: 8px;
+  }
+
+  .header {
+    top: 1vh;
+  }
+
+  .flowers-catalog {
+    top: 2.5;
+  }
+
+  .page-header {
+    top: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .main-box {
+    top: 2.5rem;
+  }
+}
