@@ -89,10 +89,48 @@ header {
 }
 
 .upper-elements{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
   position: absolute;
-  width: 100%;
-  height: 2rem;
-  margin: 0 auto;
+  top: 2rem;
+  left: 2rem;
+  right: 2rem;
+}
+
+.ball {
+  width: 12px;
+  height: 12px;
+  background: #dbf2bf;
+  border-radius: 50%;
+  margin: 5px 0;
+}
+
+.ball1 {
+  background: #55bf00;
+}
+
+.discount {
+  display: inline-block;
+  font-size: 1rem;
+  background:#55bf00;
+  padding: 0.7rem 0.2rem;
+  border-radius: 50%;
+}
+
+.lower-elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  position: absolute;
+  color: gray;
+  bottom: 2rem;
+  left: 2rem;
+  right: 2rem;
+}
+
+.lower-elements span{
+  font-size: 1rem;
 }
 
 .selected-product img{
@@ -108,4 +146,51 @@ header {
 .product-info {
   flex: 1;
   color: black;
+  border: 1px solid whitesmoke;
+}
+
+.title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 88%;
+  margin: 2rem auto;
+}
+
+.title h1{
+  display: inline-block;
+  font-size: 2rem;
+}
+
+.title i{
+  color: #D8055A;
+  font-size: 1rem;;
+}
+
+.size {
+  display: block;
+  width: 88%;
+  font-weight: 600;
+  margin: 1rem auto;
+}
+
+.size-options {
+  width: 88%;
+  font-size: 0.8rem;
+  margin: 0 auto;
+}
+
+.option-size {
+  display: inline-block;
+  width: 2.5rem;
+  font-weight: 600;
+  padding: 0.2rem 0.8rem;
+  margin: 0 0.5rem;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+}
+
+.option-size1 {
+  border: 2px solid #55bf00;
+  margin-left: 0;
 }
