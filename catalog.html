@@ -45,50 +45,157 @@
   <h1 class="page-header">Flowers Catalog</h1>
   <div class="main-box">
     <div class="filter-box">
-      price
+      <span>Price</span>
+      <div class="price-slider-frame">
+        <img src="./images/slider.png" alt="slider">
+      </div>
+      <div class="price-limits">
+        <div class="min-price-limit limit">39</div>
+        <div class="max-price-limit limit">89</div>
+      </div>
+      <div class="spacer"></div>
+      <span>Color</span>
+      <div class="color-picker">
+        <div class="color-container">
+          <div class="color1 color"><i class="fa fa-check" aria-hidden="true"></i></div>
+        </div>
+        <div class="color-container">
+          <div class="color2 color">&nbsp;</div>
+        </div>
+        <div class="color-container">
+          <div class="color3 color">&nbsp;</div>
+        </div>
+        <div class="color-container">
+          <div class="color4 color">&nbsp;</div>
+        </div>
+        <div class="color-container">
+          <div class="color5 color">&nbsp;</div>
+        </div>
+      </div>
+      <div class="spacer"></div>
+      <span>Event</span>
+      <div class="event1 event">
+        <div class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></div>
+        <span>Birthday</span>
+      </div>
+      <div class="event">
+        <div class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></div>
+        <span>Anniversary</span>
+      </div>
+      <div class="event">
+        <div class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></div>
+        <span>Congratulations</span>
+      </div>
+      <div class="event">
+        <div class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></div>
+        <span>Valentin's day</span>
+      </div>
+      <div class="event">
+        <div class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></div>
+        <span>Apologize</span>
+      </div>
+      <div class="spacer"></div>
+      <span>For whom</span>
+      <div class="for-whom">
+        <div class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></div>
+        <span>Spouse</span>
+      </div>
+      <div class="for-whom">
+        <div class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></div>
+        <span>Girlfriend</span>
+      </div>
+      <div class="for-whom">
+        <div class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></div>
+        <span>Mother</span>
+      </div>
+      <div class="for-whom for-whom1">
+        <div class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></div>
+        <span>Daughter</span>
+      </div>
+      <div class="for-whom">
+        <div class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></div>
+        <span>Friend</span>
+      </div>
+      <div class="show-btn">Show results</div>
     </div>
     <div class="results-box">
       <div class="result1 result">
-        <i class="fa fa-heart-o" aria-hidden="true"></i>
-        <div class="img-frame">
-          <img src="./images/trjar.png" alt="Turkish Rose">
-        </div>
-        <span>Turkish Rose</span> 
-      </div>
-      <div class="result2 result">
-        <i class="fa fa-heart-o" aria-hidden="true"></i>
-        <div class="img-frame">
-          <img src="./images/rfjar.png" alt="Rose Flower">
-        </div>
-        <span>Rose Flower</span>
-      </div>
-      <div class="result3 result">
-        <i class="fa fa-heart-o" aria-hidden="true"></i>
-        <div class="img-frame">
-          <img src="./images/acjar.png" alt="Assorted Colors">
-        </div>
-        <span>Assorted Colors</span>
-      </div>
-      <div class="result4 result">
-        <i class="fa fa-heart-o" aria-hidden="true"></i>
+        <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
         <div class="img-frame">
           <img src="./images/trjar.png" alt="Turkish Rose">
         </div>
         <span>Turkish Rose</span>
+        <form action="" class="quantity">
+          <input type="radio" id="q1" name="quantity1" checked><label for="q1">9 unt.</label>
+          <input type="radio" id="q2" name="quantity1"><label for="q2">15 unt.</label>
+          <input type="radio" id="q3" name="quantity1"><label for="q3">21 unt.</label>
+        </form>
+        <span class="price-span">$49 <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
       </div>
-      <div class="result5 result">
-        <i class="fa fa-heart-o" aria-hidden="true"></i>
+      <div class="result2 result">
+        <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
         <div class="img-frame">
           <img src="./images/rfjar.png" alt="Rose Flower">
         </div>
         <span>Rose Flower</span>
+        <form action="" class="quantity">
+          <input type="radio" id="q4" name="quantity2" checked><label for="q4">9 unt.</label>
+          <input type="radio" id="q5" name="quantity2"><label for="q5">15 unt.</label>
+          <input type="radio" id="q6" name="quantity2"><label for="q6">21 unt.</label>
+        </form>     
+        <span class="price-span">$49 <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
       </div>
-      <div class="result6 result">
-        <i class="fa fa-heart-o" aria-hidden="true"></i>
+      <div class="result3 result">
+        <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
         <div class="img-frame">
           <img src="./images/acjar.png" alt="Assorted Colors">
         </div>
         <span>Assorted Colors</span>
+        <form action="" class="quantity">
+          <input type="radio" id="q7" name="quantity" checked><label for="q7">9 unt.</label>
+          <input type="radio" id="q8" name="quantity"><label for="q8">15 unt.</label>
+          <input type="radio" id="q9" name="quantity"><label for="q9">21 unt.</label>
+        </form>
+        <span class="price-span">$49 <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+      </div>
+      <div class="result4 result">
+        <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+        <div class="img-frame">
+          <img src="./images/trjar.png" alt="Turkish Rose">
+        </div>
+        <span>Turkish Rose</span>
+        <form action="" class="quantity">
+          <input type="radio" id="q10" name="quantity" checked><label for="q10">9 unt.</label>
+          <input type="radio" id="q11" name="quantity"><label for="q11">15 unt.</label>
+          <input type="radio" id="q12" name="quantity"><label for="q12">21 unt.</label>
+        </form>
+        <span class="price-span">$49 <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+      </div>
+      <div class="result5 result">
+        <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+        <div class="img-frame">
+          <img src="./images/rfjar.png" alt="Rose Flower">
+        </div>
+        <span>Rose Flower</span>
+        <form action="" class="quantity">
+          <input type="radio" id="q13" name="quantity" checked><label for="q13">9 unt.</label>
+          <input type="radio" id="q14" name="quantity"><label for="q14">15 unt.</label>
+          <input type="radio" id="q15" name="quantity"><label for="q15">21 unt.</label>
+        </form>
+        <span class="price-span">$49 <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+      </div>
+      <div class="result6 result">
+        <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+        <div class="img-frame">
+          <img src="./images/acjar.png" alt="Assorted Colors">
+        </div>
+        <span>Assorted Colors</span>
+        <form action="" class="quantity">
+          <input type="radio" id="q16" name="quantity" checked><label for="q16">9 unt.</label>
+          <input type="radio" id="q17" name="quantity"><label for="q17">15 unt.</label>
+          <input type="radio" id="q18" name="quantity"><label for="q18">21 unt.</label>
+        </form>
+        <span class="price-span">$49 <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
       </div>
     </div>
   </div>
