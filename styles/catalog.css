@@ -2,7 +2,6 @@
 
 body {
   color: white;
-  background: url("../images/greenbg.png") center center/100% repeat;
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
 }
@@ -31,9 +30,12 @@ h1,h2,h3 {
 /* rules for the catalog page header */
 
 header {
-  position: absolute;
-  top: 2vh;
+  height: 3rem;
   width:100%;
+  background-image: url("../images/greenbg.png");
+  background-size: auto;
+  background-position: -20rem -20rem;
+  padding-top: 0.5rem;
 }
 
 .nav-bar {
@@ -81,7 +83,6 @@ header {
 .flowers-catalog {
   position: relative;
   top: 3.5rem;
-  height: 65rem;
   color: black;
   background-color: white;
   width: 100%;

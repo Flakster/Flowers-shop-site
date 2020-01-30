@@ -26,9 +26,9 @@ h1,h2,h3 {
 header {
   height: 3rem;
   background-image: url("../images/greenbg.png");
-  padding-top: 0.5rem;
   background-size: auto;
   background-position: -20rem -20rem;
+  padding-top: 0.5rem;
 }
 
 .nav-bar {
