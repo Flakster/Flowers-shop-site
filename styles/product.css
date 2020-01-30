@@ -145,15 +145,20 @@ header {
 
 .product-info {
   flex: 1;
-  color: black;
+  color: rgb(172, 154, 154);
   border: 1px solid whitesmoke;
+}
+
+.line {
+  width: 88%;
+  font-size: 1rem;
+  font-weight: 600;;
 }
 
 .title{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 88%;
   margin: 2rem auto;
 }
 
@@ -169,13 +174,10 @@ header {
 
 .size {
   display: block;
-  width: 88%;
-  font-weight: 600;
   margin: 1rem auto;
 }
 
 .size-options {
-  width: 88%;
   font-size: 0.8rem;
   margin: 0 auto;
 }
@@ -193,4 +195,126 @@ header {
 .option-size1 {
   border: 2px solid #55bf00;
   margin-left: 0;
+}
+
+.other-options {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1.5rem auto;
+}
+
+.color-picker {
+  display: inline-block;
+  margin: 1rem 1rem 1rem 0;
+  font-size: 1rem;
+}
+
+.color-ball {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  margin: 1rem 0.4rem;
+}
+
+.color-ball1 {
+  margin-left: 0;
+  background: #9B1844;
+}
+
+.color-ball2 { background: #D8055A; }
+.color-ball3 { background: #FFACC7; }
+.color-ball4 { background: #FFD6E4; }
+
+.delivery {
+  display: inline-block;
+  margin: 1rem auto;
+  font-size: 1rem;
+}
+
+.delivery-option {
+  display: inline-block;
+  height: 1rem;
+}
+
+.checkmark {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #55bf00;
+  margin-right: 0.5rem;
+}
+
+.checkmark2 {
+  margin-left: 1rem;
+}
+
+.options-line {
+  margin: 1rem 0;
+}
+
+.total {
+  margin: 0 auto;
+}
+
+.total .old-price {
+  color: gray;
+  text-decoration-line: line-through; 
+  margin-right: 1rem;
+}
+
+.total .new-price {
+  font-size: 1.5rem;
+}
+
+.buy-btn {
+  display: inline-block;
+  color: white;
+  background: #D8055A;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  border-radius: 2rem;
+  margin-left: 2rem;
+}
+/* media querys */
+
+@media all and (max-width: 1024px){
+
+    /* rules for the navigation bar*/
+
+    .nav-bar {
+      width: 95%;
+      margin: 0 auto;
+    }
+    
+    .menu {
+      display: none;
+    }
+  
+    .menu-btn {
+      display: inline;
+    }
+  
+    .icon-btn {
+      margin: 0 1vw;
+    }
+    /* rules for the header  */
+  
+    .page-header {
+      top: 1.2rem;
+    }
+
+    /* rules for the main container */
+
+  .selected-product {
+    flex-wrap: wrap;
+  }
+
+  .product-img {
+    min-width: 500px;
+  }
+  .product-info {
+    min-width: 500px;
+  }
+
 }
