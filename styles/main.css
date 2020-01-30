@@ -263,6 +263,8 @@ header {
   margin-top: 1rem;
 }
 
+/* rules for the crafts section */
+
 .crafts-section {
   font-size: 1.8rem;
   background-image: url("../images/greenbg.png");
@@ -334,7 +336,7 @@ header {
 .product {
   background-color: #fcfcfc;
   border: 1px solid whitesmoke;
-  width: 31%;
+  width: 30%;
   border-radius: 0.3rem;
 }
 
@@ -355,7 +357,6 @@ header {
 .img-frame {
   position: relative;
   width: 60%;
-  height: 18vw;
   margin: 0 auto;
 }
 
@@ -507,8 +508,48 @@ header {
     margin: 0;
   }
 
+  .left-offer-img-frame {
+    width: 70%;
+  }
+
   .offers-right {
     display: none;
+  }
+
+  /* rules for the crafts section */
+
+  .slide1 {
+    width: 100%;
+  }
+
+  .slide2,
+  .slide3 {
+    display: none;
+  }
+
+  /* rules for the product samples section */
+
+  .samples-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .product2 {
+    width: 100%;
+  }
+
+  .product1,
+  .product3,
+  .product4,
+  .product5,
+  .product6 {
+    display: none;
+  }
+
+  .img-frame {
+    width: 40%;
   }
 }
 
