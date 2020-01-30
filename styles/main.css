@@ -147,21 +147,21 @@ header {
 .page2 {
   position: relative;
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .best-offers {
-  position: absolute;
   width: 100%;
   color: black;
 }
 
 .best-offers-bar {
-  position: relative;
   display: flex;
-  top: 4vh;
-  width: 100%;
   justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 6rem;
   font-size: 1.8rem;
 }
 
@@ -171,11 +171,10 @@ header {
 
 .offers {
   display: flex;
-  position: relative;
   top: 10vh;
-  height: 70vh;
   width: 100%;
   overflow: hidden;
+  margin-bottom: 2rem;
 }
 
 .offer {
@@ -218,11 +217,17 @@ header {
   border-radius: 50%;
 }
 
+.left-offer-img-frame {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .left-offer img {
   align-self: center;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .offers-right {
@@ -350,6 +355,10 @@ header {
 
   .offer-left {
     margin: 0;
+  }
+
+  .left-offer-img-frame{
+
   }
 
   .offers-right {
