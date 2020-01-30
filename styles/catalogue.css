@@ -29,7 +29,7 @@ h3 {
   position: relative;
 }
 
-/* rules for the catalog page header */
+/* rules for the catalogue page header */
 
 header {
   height: 3rem;
@@ -82,7 +82,7 @@ header {
   background-color: #d8055a;
 }
 
-.flowers-catalog {
+.flowers-catalogue {
   position: relative;
   top: 3.5rem;
   color: black;
@@ -365,7 +365,7 @@ header {
     display: block;
   }
 
-  .flowers-catalog {
+  .flowers-catalogue {
     top: 2.3;
     height: 50rem;
   }
@@ -415,7 +415,7 @@ header {
     top: 1vh;
   }
 
-  .flowers-catalog {
+  .flowers-catalogue {
     top: 2.5;
   }
 

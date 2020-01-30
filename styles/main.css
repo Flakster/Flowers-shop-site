@@ -551,6 +551,11 @@ header {
   .img-frame {
     width: 40%;
   }
+
+  .show-more-btn {
+    width: 20%;
+    min-width: 150px;
+  }
 }
 
 /* media query for small screen devices  */
