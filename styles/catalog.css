@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color:white;
+  color: white;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -17,13 +17,15 @@ a:hover {
   text-shadow: 1px 1px magenta;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   font-weight: 100;
 }
 
 /* rules for the main container */
 
-.main-container{
+.main-container {
   position: relative;
 }
 
@@ -31,7 +33,7 @@ h1,h2,h3 {
 
 header {
   height: 3rem;
-  width:100%;
+  width: 100%;
   background-image: url("../images/greenbg.png");
   background-size: auto;
   background-position: -20rem -20rem;
@@ -64,7 +66,7 @@ header {
   padding: 0.7rem;
   border-radius: 50%;
   margin: 0 10px;
-} 
+}
 
 .menu-btn {
   display: none;
@@ -73,11 +75,11 @@ header {
 
 .like-btn,
 .menu-btn {
-  background-color: #8ED456;
+  background-color: #8ed456;
 }
 
 .cart-btn {
-  background-color: #D8055A;
+  background-color: #d8055a;
 }
 
 .flowers-catalog {
@@ -102,7 +104,7 @@ header {
   position: relative;
   text-align: center;
   top: 2rem;
-  width: 85%;  
+  width: 85%;
   font-size: 1.2rem;
   padding: 0.7rem 0;
   margin: 0 auto;
@@ -114,7 +116,7 @@ header {
 .main-box {
   display: flex;
   position: relative;
-  top: 5rem; 
+  top: 5rem;
   width: 85%;
   margin: 0 auto;
 }
@@ -129,18 +131,18 @@ header {
   border-radius: 0.3rem;
 }
 
-
 .filter-box span {
   display: block;
   font-size: 1.2rem;
-  font-weight: 600;;
+  font-weight: 600;
   margin: 1rem;
 }
 
 .spacer {
   visibility: hidden;
-  height: 1rem;  
+  height: 1rem;
 }
+
 .price-slider-frame {
   margin: 0 1rem;
 }
@@ -150,7 +152,7 @@ header {
   height: auto;
 }
 
-.price-limits{
+.price-limits {
   display: flex;
   justify-content: space-between;
   margin: 1rem;
@@ -171,7 +173,7 @@ header {
   margin: 1rem;
 }
 
-.color-container{
+.color-container {
   color: white;
   width: 2.3rem;
 }
@@ -182,14 +184,13 @@ header {
   font-size: 1rem;
   padding: 0.3rem;
   border-radius: 1rem;
-
 }
 
-.color1 { background: #BD4855; }
-.color2 { background: #D49315; }
-.color3 { background: #A833B9; }
-.color4 { background: #DF5FA7; }
-.color5 { background: #5FADDF; }
+.color1 { background: #bd4855; }
+.color2 { background: #d49315; }
+.color3 { background: #a833b9; }
+.color4 { background: #df5fa7; }
+.color5 { background: #5faddf; }
 
 .event,
 .for-whom {
@@ -222,14 +223,13 @@ header {
 .show-btn {
   text-align: center;
   color: white;
-  background-color: #D8055A;
+  background-color: #d8055a;
   padding: 0.6rem;
   border: none;
   border-radius: 2rem;
   margin: 3rem 1rem 1rem 1rem;
   cursor: pointer;
 }
-
 
 /* rules for the results box */
 
@@ -254,12 +254,11 @@ header {
 .result5 { margin: 0.5rem 0.5rem 0 0.5rem; }
 .result6 { margin: 0.5rem 0 0 0.5rem; }
 
-
 .result i {
   display: inline-block;
   margin: 1rem;
   font-size: 0.9rem;
-  color: #D8055A;
+  color: #d8055a;
 }
 
 .img-frame {
@@ -324,7 +323,7 @@ header {
 .ball {
   display: inline-block;
   width: 15px;
-  height:15px;
+  height: 15px;
   background: #dbf2bf;
   margin: 0 0.5rem;
   border-radius: 50%;
@@ -336,16 +335,14 @@ header {
 
 /* media query for mobile devices screen */
 
-@media all and (max-width: 1024px){
-
- 
-  /* rules for the navigation bar*/
+@media all and (max-width: 1024px) {
+  /* rules for the navigation bar */
 
   .nav-bar {
     width: 95%;
     margin: 0 auto;
   }
-  
+
   .menu {
     display: none;
   }
@@ -357,6 +354,7 @@ header {
   .icon-btn {
     margin: 0 1vw;
   }
+
   /* rules for the header  */
 
   .page-header {
@@ -401,11 +399,10 @@ header {
   }
 }
 
-/* media query for small screen devices         ***************/
+/* media query for small screen devices    */
 
-@media all and (max-width: 450px){
-
-  .brand-header{
+@media all and (max-width: 450px) {
+  .brand-header {
     font-size: 15px;
   }
 

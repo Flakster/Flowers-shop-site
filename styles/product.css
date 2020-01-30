@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color:white;
+  color: white;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -17,7 +17,9 @@ a:hover {
   text-shadow: 1px 1px magenta;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   font-weight: 100;
 }
 
@@ -57,7 +59,7 @@ header {
   padding: 0.7rem;
   border-radius: 50%;
   margin: 0 10px;
-} 
+}
 
 .menu-btn {
   display: none;
@@ -66,11 +68,11 @@ header {
 
 .like-btn,
 .menu-btn {
-  background-color: #8ED456;
+  background-color: #8ed456;
 }
 
 .cart-btn {
-  background-color: #D8055A;
+  background-color: #d8055a;
 }
 
 /* rules for the main container */
@@ -78,7 +80,7 @@ header {
 .selected-product {
   display: flex;
   width: 85%;
-  margin: 3rem auto;
+  margin: 3rem  auto;
 }
 
 .product-img {
@@ -88,7 +90,7 @@ header {
   border: 1px solid whitesmoke;
 }
 
-.upper-elements{
+.upper-elements {
   display: flex;
   justify-content: space-between;
   align-items: start;
@@ -113,7 +115,7 @@ header {
 .discount {
   display: inline-block;
   font-size: 1rem;
-  background:#55bf00;
+  background: #55bf00;
   padding: 0.7rem 0.2rem;
   border-radius: 50%;
 }
@@ -129,11 +131,11 @@ header {
   right: 2rem;
 }
 
-.lower-elements span{
+.lower-elements span {
   font-size: 1rem;
 }
 
-.selected-product img{
+.selected-product img {
   width: 100%;
   height: auto;
 }
@@ -145,31 +147,31 @@ header {
 
 .product-info {
   flex: 1;
-  color: rgb(172, 154, 154);
+  color: black;
   border: 1px solid whitesmoke;
 }
 
 .line {
   width: 88%;
   font-size: 1rem;
-  font-weight: 600;;
+  font-weight: 600;
 }
 
-.title{
+.title {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 2rem auto;
 }
 
-.title h1{
+.title h1 {
   display: inline-block;
   font-size: 2rem;
 }
 
-.title i{
-  color: #D8055A;
-  font-size: 1rem;;
+.title i {
+  color: #d8055a;
+  font-size: 1rem;
 }
 
 .size {
@@ -219,12 +221,12 @@ header {
 
 .color-ball1 {
   margin-left: 0;
-  background: #9B1844;
+  background: #9b1844;
 }
 
-.color-ball2 { background: #D8055A; }
-.color-ball3 { background: #FFACC7; }
-.color-ball4 { background: #FFD6E4; }
+.color-ball2 { background: #d8055a; }
+.color-ball3 { background: #ffacc7; }
+.color-ball4 { background: #ffd6e4; }
 
 .delivery {
   display: inline-block;
@@ -259,7 +261,7 @@ header {
 
 .total .old-price {
   color: gray;
-  text-decoration-line: line-through; 
+  text-decoration-line: line-through;
   margin-right: 1rem;
 }
 
@@ -270,41 +272,42 @@ header {
 .buy-btn {
   display: inline-block;
   color: white;
-  background: #D8055A;
+  background: #d8055a;
   padding: 1rem 3rem;
   cursor: pointer;
   border-radius: 2rem;
   margin-left: 2rem;
 }
+
 /* media querys */
 
-@media all and (max-width: 1024px){
+@media all and (max-width: 1024px) {
+  /* rules for the navigation bar */
 
-    /* rules for the navigation bar*/
+  .nav-bar {
+    width: 95%;
+    margin: 0 auto;
+  }
 
-    .nav-bar {
-      width: 95%;
-      margin: 0 auto;
-    }
-    
-    .menu {
-      display: none;
-    }
-  
-    .menu-btn {
-      display: inline;
-    }
-  
-    .icon-btn {
-      margin: 0 1vw;
-    }
-    /* rules for the header  */
-  
-    .page-header {
-      top: 1.2rem;
-    }
+  .menu {
+    display: none;
+  }
 
-    /* rules for the main container */
+  .menu-btn {
+    display: inline;
+  }
+
+  .icon-btn {
+    margin: 0 1vw;
+  }
+
+  /* rules for the header  */
+
+  .page-header {
+    top: 1.2rem;
+  }
+
+  /* rules for the main container */
 
   .selected-product {
     flex-wrap: wrap;
@@ -313,8 +316,37 @@ header {
   .product-img {
     min-width: 500px;
   }
+
   .product-info {
     min-width: 500px;
   }
+}
 
+/* rules for smaller screen sizes */
+
+@media all and (max-width: 500px) {
+  .brand-header {
+    font-size: 15px;
+  }
+
+  .icon-btn {
+    font-size: 10px;
+    padding: 8px;
+  }
+
+  .header {
+    height: 2vh;
+  }
+
+  .main-box {
+    top: 2.5rem;
+  }
+
+  .product-img {
+    min-width: 250px;
+  }
+
+  .product-info {
+    min-width: 250px;
+  }
 }

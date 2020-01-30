@@ -1,13 +1,13 @@
 /* rules for the main page body */
 
-body{
+body {
   color: white;
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
 }
 
 a {
-  color:white;
+  color: white;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -17,15 +17,17 @@ a:hover {
   text-shadow: 1px 1px magenta;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   font-weight: 100;
 }
 
 /* rules for the main container */
 
-.main-container{
+.main-container {
   position: relative;
-  width: calc(100vw-15px);
+  width: calc(100vw - 15px);
   margin: 0 auto;
 }
 
@@ -39,7 +41,7 @@ h1,h2,h3 {
 .frame {
   position: relative;
   width: 85%;
-  height:100%;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -48,7 +50,7 @@ h1,h2,h3 {
 header {
   position: absolute;
   top: 2vh;
-  width:100%;
+  width: 100%;
 }
 
 .nav-bar {
@@ -76,7 +78,7 @@ header {
   padding: 0.7rem;
   border-radius: 50%;
   margin: 0 10px;
-} 
+}
 
 .menu-btn {
   display: none;
@@ -85,13 +87,12 @@ header {
 
 .like-btn,
 .menu-btn {
-  background-color: #8ED456;
+  background-color: #8ed456;
 }
 
 .cart-btn {
-  background-color: #D8055A;
+  background-color: #d8055a;
 }
-
 
 /* rules for the main text */
 
@@ -116,15 +117,13 @@ header {
   width: 60%;
   text-align: center;
   padding: 10px;
-  background-color: #D8055A;
+  background-color: #d8055a;
   margin-top: 25px;
   border-radius: 20px;
   margin-bottom: auto;
 }
 
-
 /* rules for the main-img */
-
 
 .main-img-container {
   position: absolute;
@@ -140,7 +139,7 @@ header {
   bottom: 0;
   right: 0;
   max-width: 100%;
-  height: 100%; 
+  height: 100%;
 }
 
 /* rules for the Best Offers section */
@@ -151,7 +150,7 @@ header {
   height: 100vh;
 }
 
-.best-offers{
+.best-offers {
   position: absolute;
   width: 100%;
   color: black;
@@ -175,7 +174,7 @@ header {
   position: relative;
   top: 10vh;
   height: 70vh;
-  width:100%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -184,8 +183,7 @@ header {
   background-color: #fcfcfc;
 }
 
-
-.left-offer{
+.left-offer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -220,11 +218,11 @@ header {
   border-radius: 50%;
 }
 
- .left-offer img{
-    align-self: center;
-    max-width: 100%;
-    height: auto;
-    overflow: hidden;
+.left-offer img {
+  align-self: center;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
 }
 
 .offers-right {
@@ -239,7 +237,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex: 1;   
+  flex: 1;
   padding: 1rem 1rem 0 1rem;
 }
 
@@ -247,7 +245,7 @@ header {
   flex: 1;
 }
 
-.right-offer img{
+.right-offer img {
   height: 100%;
   width: auto;
   overflow: hidden;
@@ -263,26 +261,25 @@ header {
 
 /* media query for mobile devices screen     ****************/
 
-@media all and (max-width: 1024px){
-
+@media all and (max-width: 1024px) {
   /* rules for the main container */
 
-  .main-container{
-    width: calc(100vw-15px);
+  .main-container {
+    width: calc(100vw - 15px);
     margin: 0;
   }
 
   .frame {
     width: 100%;
   }
-  
-  /* rules for the navigation bar*/
+
+  /* rules for the navigation bar */
 
   .nav-bar {
     width: 95%;
     margin: 0 auto;
   }
-  
+
   .menu {
     display: none;
   }
@@ -294,11 +291,11 @@ header {
   .icon-btn {
     margin: 0 1vw;
   }
-  
+
   /* rules for the main text */
-  
+
   .main-text {
-    display:flex;
+    display: flex;
     align-items: center;
     width: 100%;
     top: 15vh;
@@ -316,9 +313,8 @@ header {
     display: none;
   }
 
- 
   /* rules for the main image */
-  
+
   .main-img-container {
     display: flex;
     flex-direction: row;
@@ -328,12 +324,12 @@ header {
     height: 55vh;
     overflow: hidden;
   }
-  
+
   .main-img {
     top: 0;
     right: auto;
     width: 150%;
-    height: auto; 
+    height: auto;
   }
 
   /* rules for the Best Offers section */
@@ -346,7 +342,7 @@ header {
     width: 90%;
     margin: 0 auto;
   }
-  
+
   .offers {
     width: 90%;
     margin: 0 auto;
@@ -359,16 +355,12 @@ header {
   .offers-right {
     display: none;
   }
-
-
-  
 }
 
 /* media query for small screen devices         ***************/
 
-@media all and (max-width: 450px){
-
-  .brand-header{
+@media all and (max-width: 450px) {
+  .brand-header {
     font-size: 15px;
   }
 
@@ -383,7 +375,7 @@ header {
 
   .sub-caption {
     font-size: 18px;
-  } 
+  }
 
   .order-btn {
     width: 50%;
