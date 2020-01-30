@@ -16,9 +16,10 @@ This is a website project based on the [Flowers Shop design](https://www.behance
 
 To get a local copy up and running follow these simple example steps:
 
-    Clone the project into your local machine. Navigate into index.html file and run on your browser.
-    Use the menu to go to the catalog of products. Clicking on one product, you will be taken to the product page.
-    Test this three pages changing the width of your browser window. The content will fit to all screen sizes.
+    Clone the project into your local machine. Navigate into index.html file and run 
+    on your browser. Use the menu to go to the catalog of products. Clicking on one product, 
+    you will be taken to the product page. Test these three pages changing the width of your 
+    browser window. The content will fit to all screen sizes.
 
 
 ## [Homepage](https://github.com/Flakster/Flowers-shop-site/)
@@ -32,7 +33,8 @@ To get a local copy up and running follow these simple example steps:
   *  Stylelint for VSCode
   
 ## Acknowledgments:
-    to [Michael D](https://dribbble.com/altezzik) for his beautiful design
+
+  to [Michael D](https://dribbble.com/altezzik) for his beautiful design
 
 ## Author
 
