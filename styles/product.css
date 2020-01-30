@@ -80,7 +80,7 @@ header {
 .selected-product {
   display: flex;
   width: 85%;
-  margin: 3rem  auto;
+  margin: 3rem  auto 0  auto;
 }
 
 .product-img {
@@ -140,7 +140,7 @@ header {
   height: auto;
 }
 
-.img-frame {
+.main-img-frame {
   width: 50%;
   margin: 3rem auto;
 }
@@ -279,6 +279,103 @@ header {
   margin-left: 2rem;
 }
 
+.related-products {
+  width: 85%;
+  font-size: 1.8rem;
+  color: black;
+  margin: 0 auto;
+}
+
+.related-products-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+}
+
+.related-arrows {
+  color: gray;
+}
+
+.related-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto 2rem auto;
+}
+
+.related {
+  background-color: #fcfcfc;
+  border: 1px solid whitesmoke;
+  width: 32%;
+  border-radius: 0.3rem;
+}
+
+.related1 { margin: 0 1rem 1rem 0; }
+.related2 { margin: 0 1rem 1rem 1rem; }
+.related3 { margin: 0 0 1rem 1rem; }
+
+.related i {
+  display: inline-block;
+  margin: 1rem;
+  font-size: 0.9rem;
+  color: #d8055a;
+}
+
+.img-frame {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.related img {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.related span {
+  font-size: 1.2rem;
+}
+
+.quantity {
+  margin: 0.3rem 1rem 0.3rem 1rem;
+}
+
+.related label {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.3rem 0.7vw 0.3rem 0.5vw;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+  transition: all 0.3s;
+}
+
+.related input[type="radio"] {
+  display: none;
+}
+
+.related input[type="radio"]:checked + label {
+  border: 2px solid #55bf00;
+}
+
+.related span {
+  display: block;
+  font-weight: 600;
+  margin: 0.7rem 1rem 0.7rem 1rem;
+}
+
+.price-span {
+  margin: 0 1rem 0.5rem 1rem;
+}
+
+.price-span i {
+  font-size: 1rem;
+  margin: 0;
+}
+
 /* media querys */
 
 @media all and (max-width: 1024px) {
@@ -320,6 +417,11 @@ header {
   .product-info {
     min-width: 500px;
   }
+
+  .related-products {
+    display: none;
+  }
+
 }
 
 /* rules for smaller screen sizes */
