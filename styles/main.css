@@ -147,7 +147,6 @@ header {
 .page2 {
   position: relative;
   width: 100%;
-  /* height: 100vh; */
 }
 
 .best-offers {
@@ -218,7 +217,7 @@ header {
 }
 
 .left-offer-img-frame {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -241,18 +240,18 @@ header {
 .right-offer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: start;
   flex: 1;
   padding: 1rem 1rem 0 1rem;
 }
 
-.right-offer-info {
-  flex: 1;
+.right-offer-img-frame {
+  width: 60%;
 }
 
 .right-offer img {
-  height: 100%;
-  width: auto;
+  width: 100%;
+  height: auto;
   overflow: hidden;
 }
 
@@ -264,7 +263,7 @@ header {
   margin-top: 1rem;
 }
 
-/* media query for mobile devices screen     ****************/
+/* media query for mobile devices screen   */
 
 @media all and (max-width: 1024px) {
   /* rules for the main container */
@@ -357,16 +356,12 @@ header {
     margin: 0;
   }
 
-  .left-offer-img-frame{
-
-  }
-
   .offers-right {
     display: none;
   }
 }
 
-/* media query for small screen devices         ***************/
+/* media query for small screen devices  */
 
 @media all and (max-width: 450px) {
   .brand-header {
