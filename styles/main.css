@@ -265,12 +265,14 @@ header {
 
 /* rules for the crafts section */
 
-.crafts-section {
+.crafts-section,
+.testimonials {
   font-size: 1.8rem;
   background-image: url("../images/greenbg.png");
 }
 
-.gallery-nav-bar {
+.gallery-nav-bar,
+.testimonials-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -279,7 +281,8 @@ header {
   margin: 0 auto;
 }
 
-.slideshow {
+.slideshow,
+.testimonials-box {
   display: flex;
   justify-content: space-between;
   width: 85%;
@@ -413,6 +416,53 @@ header {
   padding: 0.7rem 0;
   margin: 2rem auto;
   cursor: pointer;
+}
+
+/* rules for the testimonials section */
+
+.customer {
+  width: 48%;
+  background-color: #fff;
+  color: black;
+  border-radius: 0.3rem;
+}
+
+.inner-box {
+  width: 80%;
+  font-size: 1.4rem;
+  margin: 2rem auto 2rem auto;
+}
+
+.customer-info {
+  font-weight: 600;
+}
+
+.testimonial-text {
+  padding-top: 1.5rem;
+}
+
+.customer-info i {
+  color: #55bf00;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.photo-container {
+  width: 25%;
+  float: left;
+  margin-right: 1rem;
+}
+
+.photo-container img {
+  width: 100%;
+  height: auto;
+}
+
+.customer-description {
+  display: block;
+  line-height: 2rem;
+  font-style: italic;
+  color: gray;
 }
 
 /* media query for mobile devices screen   */
