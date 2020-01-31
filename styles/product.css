@@ -80,7 +80,7 @@ header {
 .selected-product {
   display: flex;
   width: 85%;
-  margin: 3rem  auto 0  auto;
+  margin: 3rem  auto 2rem  auto;
 }
 
 .product-img {
@@ -301,7 +301,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: 0 auto 2rem auto;
+  margin: 1 auto 2rem auto;
 }
 
 .related {
@@ -418,15 +418,21 @@ header {
     min-width: 500px;
   }
 
-  .related-products {
-    display: none;
+  .related-box {
+    flex-direction: column;
   }
+
+  .related {
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+
 
 }
 
 /* rules for smaller screen sizes */
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 450px) {
   .brand-header {
     font-size: 15px;
   }
