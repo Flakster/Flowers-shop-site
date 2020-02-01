@@ -339,10 +339,6 @@ header {
   height: auto;
 }
 
-.related span {
-  font-size: 1.2rem;
-}
-
 .quantity {
   margin: 0.3rem 1rem 0.3rem 1rem;
 }
@@ -367,6 +363,7 @@ header {
 
 .related span {
   display: block;
+  font-size: 1.2rem;
   font-weight: 600;
   margin: 0.7rem 1rem 0.7rem 1rem;
 }
@@ -430,8 +427,6 @@ header {
     width: 100%;
     margin: 0 0 2rem 0;
   }
-
-
 }
 
 /* rules for smaller screen sizes */
