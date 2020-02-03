@@ -504,19 +504,33 @@ header {
 
 .footer-block span {
   display: block;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   line-height: 2rem;
-  cursor: pointer;
+  margin: 0 1rem;
 }
 
 .other-links {
+  margin: 0 1rem;
+}
+
+.other-links a {
+  display: block;
+  line-height: 2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
   text-decoration-line: underline;
+  color: black;
+}
+
+.other-links a:hover {
+  text-decoration-line: none;
+  text-shadow: none;
 }
 
 .divider {
   display: none !important;
-  margin: 0 0.5rem;
+  margin: 0 2vw;
 }
 
 .card-logo {
@@ -532,6 +546,10 @@ header {
 
 .card-logo2 img {
   height: 1.5rem;
+}
+
+.card-logo3 img {
+  width: 180%;
 }
 
 /* media query for mobile devices screen   */
@@ -686,6 +704,10 @@ header {
     display: none;
   }
 
+  .inner-box {
+    font-size: 1.2rem;
+  }
+
   /* rules for the footer */
   .footer-bar {
     flex-direction: column;
@@ -694,10 +716,19 @@ header {
 
   .subscribe-btn {
     width: 50%;
+    font-size: 1rem;
+    margin-bottom: 2rem;
   }
 
-  .footer-block span {
+  .other-links {
+    font-size: 0.8rem;
+  }
+
+  .footer-block span,
+  .other-links a {
     display: inline-block;
+    font-size: 0.8rem;
+    margin: 0 0.3rem;
   }
 
   .divider {
@@ -734,5 +765,20 @@ header {
 
   .main-img {
     top: 10vh;
+  }
+
+  .footer-block {
+    text-align: center;
+  }
+
+  .footer-block span {
+    font-size: 0.7rem;
+    margin: 0 0.2rem;
+  }
+
+  .subscribe-btn {
+    width: 50%;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
   }
 }
