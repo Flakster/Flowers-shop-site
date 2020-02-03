@@ -84,7 +84,7 @@ header {
 .selected-product {
   display: flex;
   width: 85%;
-  margin: 3rem  auto 2rem  auto;
+  margin: 2rem  auto 2rem  auto;
 }
 
 .product-img {
@@ -92,6 +92,8 @@ header {
   flex: 1;
   background-color: #fcfcfc;
   border: 1px solid whitesmoke;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
 }
 
 .upper-elements {
@@ -99,9 +101,9 @@ header {
   justify-content: space-between;
   align-items: start;
   position: absolute;
-  top: 2rem;
-  left: 2rem;
-  right: 2rem;
+  top: 1rem;
+  left: 1rem;
+  right: 1rem;
 }
 
 .ball {
@@ -120,7 +122,7 @@ header {
   display: inline-block;
   font-size: 1rem;
   background: #55bf00;
-  padding: 0.7rem 0.2rem;
+  padding: 0.8rem 0.2rem;
   border-radius: 50%;
 }
 
@@ -130,9 +132,9 @@ header {
   align-items: start;
   position: absolute;
   color: gray;
-  bottom: 2rem;
-  left: 2rem;
-  right: 2rem;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
 }
 
 .lower-elements span {
@@ -145,18 +147,20 @@ header {
 }
 
 .main-img-frame {
-  width: 50%;
-  margin: 3rem auto;
+  width: 40%;
+  margin: 1rem auto;
 }
 
 .product-info {
   flex: 1;
   color: black;
   border: 1px solid whitesmoke;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
 }
 
 .line {
-  width: 88%;
+  width: 92%;
   font-size: 1rem;
   font-weight: 600;
 }
@@ -165,12 +169,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2rem auto;
+  margin: 1rem auto;
 }
 
 .product-title h1 {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .product-title i {
@@ -190,7 +194,7 @@ header {
 
 .option-size {
   display: inline-block;
-  width: 2.5rem;
+  width: 2.8rem;
   font-weight: 600;
   padding: 0.2rem 0.8rem;
   margin: 0 0.5rem;
@@ -206,12 +210,12 @@ header {
 .other-options {
   display: flex;
   justify-content: flex-start;
-  margin: 1.5rem auto;
+  margin: 1rem auto;
 }
 
 .color-picker {
   display: inline-block;
-  margin: 1rem 1rem 1rem 0;
+  margin: 1rem 1rem 0.2rem 0;
   font-size: 1rem;
 }
 
@@ -220,7 +224,7 @@ header {
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 50%;
-  margin: 1rem 0.4rem;
+  margin: 1rem 0.4rem 0.2rem 0.4rem;
 }
 
 .color-ball1 {
@@ -234,7 +238,7 @@ header {
 
 .delivery {
   display: inline-block;
-  margin: 1rem auto;
+  margin: 1rem auto 0.2rem auto;
   font-size: 1rem;
 }
 
@@ -256,7 +260,7 @@ header {
 }
 
 .options-line {
-  margin: 1rem 0;
+  margin: 0.8rem 0;
 }
 
 .total {
@@ -277,15 +281,15 @@ header {
   display: inline-block;
   color: white;
   background: #d8055a;
-  padding: 1rem 3rem;
+  padding: 0.7rem 3rem;
   cursor: pointer;
   border-radius: 2rem;
-  margin-left: 2rem;
+  margin: 0 0 1rem 2rem;
 }
 
 .related-products {
   width: 85%;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   color: black;
   margin: 0 auto;
 }
@@ -294,7 +298,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 6rem;
+  height: 2rem;
 }
 
 .related-arrows {
@@ -321,15 +325,19 @@ header {
 
 .related i {
   display: inline-block;
-  margin: 1rem;
+  margin: 1rem 0 0 1rem;
   font-size: 0.9rem;
   color: #d8055a;
 }
 
+.like {
+  position: absolute;
+}
+
 .img-frame {
   position: relative;
-  width: 60%;
-  margin: 0 auto;
+  width: 32%;
+  margin: 1rem auto 0 auto;
 }
 
 .related img {
@@ -340,14 +348,14 @@ header {
 }
 
 .quantity {
-  margin: 0.3rem 1rem 0.3rem 1rem;
+  margin: 0.2rem 1rem 0.2rem 1rem;
 }
 
 .related label {
   display: inline-block;
   font-size: 0.7rem;
   font-weight: 600;
-  padding: 0.3rem 0.7vw 0.3rem 0.5vw;
+  padding: 0.3rem 0.7vw 0.5rem 0.5vw;
   border: 1px solid lightgray;
   border-radius: 1rem;
   transition: all 0.3s;
@@ -365,11 +373,11 @@ header {
   display: block;
   font-size: 1.2rem;
   font-weight: 600;
-  margin: 0.7rem 1rem 0.7rem 1rem;
+  margin: 0 1rem 0.4rem 1rem;
 }
 
 .price-span {
-  margin: 0 1rem 0.5rem 1rem;
+  margin: 0.2rem 1rem 0.5rem 1rem;
 }
 
 .price-span i {
