@@ -18,7 +18,7 @@ To get a local copy up and running follow these simple example steps:
 
 1. Under the repository name, click the Clone or download green button.
 
-![clone](https://raw.githack.com/Flakster/Flowers-shop-site/flowers-site/index.html)
+![clone](https://user-images.githubusercontent.com/53324035/73660989-4451aa80-4667-11ea-8a89-176f89d6548a.png)
 
 2. Copy the URL given by clicking the clipboard button
 
