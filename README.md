@@ -3,8 +3,6 @@ This is a website project based on the [Flowers Shop design](https://www.behance
 
 ![main](https://user-images.githubusercontent.com/53324035/73347012-e2530880-4254-11ea-8b8d-c9f1e71e0f25.png)
 
-![preview-sm](https://user-images.githubusercontent.com/53324035/73192900-c5ed8980-40f7-11ea-816c-e952aeabcb5f.png)
-
 ## Built with
 
   * HTML5
@@ -39,6 +37,48 @@ To get a local copy up and running follow these simple example steps:
 ## See a live demo [here](https://rawcdn.githack.com/Flakster/Flowers-shop-site/1dc2a5a814bcf651866d733ea234dfed02b293b4/index.html)
 
 ## Watch a video with the presentation of the project [here](https://www.loom.com/share/1d43cd76d86240d48f5f34a0e5fdcef6)
+
+## Website description
+
+  This is an online flower shop that helps the user to find the best flowers to gift by asking him/her
+  the price he/her wants to spend, the main color of the bouquet and also the kind of event and who will
+  go to receive the gift. Once the user find the product that fits the selected criteria, is asked for
+  the final order details, like the number of flowers, the type of delivery, to finally place the order.
+  
+ ## Homepage
+ 
+  ![FS-main](https://user-images.githubusercontent.com/53324035/73666558-fe014900-4670-11ea-90e4-2ec7c4b11fa6.png)
+
+  This page shows a beautiful bouquet and describes the type of work they offer to their customers. The big
+  button at the left lets the user start the buying process or, if preferred, he/she can scroll down to find product samples, 
+  testimonials from other customers, or the map with the physical location of the store.
+  
+## Catalogue
+
+  ![FS-catalogue](https://user-images.githubusercontent.com/53324035/73667241-fee6aa80-4671-11ea-8b57-21d0c713e614.png)
+ 
+  Once in this place, the user can select the products that best match his/her preferences by choosing the 
+  desired options in the filter on the left side. This action results on a grid of pictures at the right side
+  to let the use choose between his/her favorite products.
+  
+  
+## Product page
+
+  ![FS-Product](https://user-images.githubusercontent.com/53324035/73667938-0d819180-4673-11ea-8d3b-a262518abc9a.png)
+  
+  The product page offers the user a big photo of the chosen product, and the final details to place 
+  the order. It also shows to the user, related products that can be of his/her interest
+  
+  
+## Pages appearance on mobile devices 
+
+  The goal of this site is let the user buy from anywhere. The responsive behavior makes the pages to fit 
+  any screen size. The following is the appearance of the pages on small screens
+  
+
+        Homepage                     Catalogue                         Product page  
+  ![FS-mobile](https://user-images.githubusercontent.com/53324035/73669537-a0bbc680-4675-11ea-8f15-f4882cc647d0.png)
+
 
 ## Validators:
 
