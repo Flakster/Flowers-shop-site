@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flowers shop</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+  <!-- main container -->
+
+  <main class="main-container">
+    <div class="page1">
+      <div class="frame">
+
+        <!-- Header -->
+
+        <header>
+          <nav class="nav-bar">
+            <img class="rose-logo" src="./images/rose-logo.png" alt="logo">
+            <h1 class="brand-header">
+              <a href="index.html">Fleur Flowers</a>
+            </h1>
+            <ul class="menu">
+              <li><a href="index.html#crafts-gallery">Crafts Gallery</a></li>
+              <li><a href="catalogue.html">Flowers Catalogue</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+            <div class="icons">
+              <div class="icon-btn menu-btn">
+                <a href="">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="icon-btn like-btn">
+                <a href="">
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="icon-btn cart-btn">
+                <a href="">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </nav>
+        </header  >
+
+        <!-- main image container -->
+
+        <div class="main-img-container position-absolute">
+          <img class="main-img" src="./images/tnjarbouquet.png" alt="">
+        </div>
+        <div class="main-text">
+          <h2 class="caption">Author Bouquets</h2>
+          <h3 class="sub-caption">From certified florist designers</h3>
+          <div class="order-btn">
+            <a href="catalogue.html">ORDER INQUIRY</a>
+          </div>
+          <div>
+            <span class="phone">+1 (876) 534-23-95</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  best offers  section-->
+
+    <div class="frame">
+      <section class="best-offers">
+        <div class="best-offers-bar">
+          <h3 class="title">Best offers</h3>
+          <div class="arrows">
+            <a href="">
+              <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </a>
+            &nbsp;
+            <a href="">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="offers">
+          <div class="left-offer offer">
+            <div class="left-offer-info">
+              <span class="name-price">Turkish Rose</span>
+              <span>$99 <a href=""><i class="fa fa-shopping-cart purple-cart" aria-hidden="true"></i></a> 
+              </span>
+              <div class="discount">-50%</div>
+            </div>
+            <div class="left-offer-img-frame">
+              <img src="./images/turkishrose.png" alt="Turkish Rose">
+            </div>
+          </div>
+          <div class="offers-right">
+            <div class="upper-right-offer right-offer offer">
+              <div class="right-offer-info">
+                <div>
+                  <span class="name-price">Damask Rose</span>
+                  <span>$49 <a href=""><i class="fa fa-shopping-cart purple-cart" aria-hidden="true"></i></a></span>
+                </div>
+              </div>
+              <div class="right-offer-img-frame">
+                <img src="./images/damaskrose.png" alt="Damask Rose">
+              </div>
+            </div>
+            <div class="lower-right-offer right-offer offer">
+              <div class="right-offer-info">
+                <div>
+                  <span class="name-price">Assorted Colors</span>
+                  <span>$39 <a href=""><i class="fa fa-shopping-cart purple-cart" aria-hidden="true"></i></a></span>
+                </div>
+              </div>
+              <div class="right-offer-img-frame">
+                <img src="./images/assortedcolors.png" alt="Assorted Colors">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- crafts section -->
+
+    <aside id="crafts-gallery" class="crafts-section">
+      <nav class="gallery-nav-bar">
+        <h3 class="title">Crafts Gallery</h3>
+        <div class="gallery-arrows">
+          <a href="">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+          </a>
+          &nbsp;
+          <a href="">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </nav>
+      <div class="slideshow">
+        <div class="slide1">
+          <img src="./images/bridalbq1.png" alt="gallery-slide">
+        </div>
+        <div class="slide2">
+          <img src="./images/bridalbq2.png" alt="gallery-slide">
+        </div>
+        <div class="slide3">
+          <img src="./images/bridalbq3.png" alt="gallery-slide">
+        </div>
+      </div>
+      <div class="pagination">
+        <div class="ball1 ball"></div>
+        <div class="ball2 ball"></div>
+        <div class="ball3 ball"></div>
+        <div class="ball4 ball"></div>
+        <div class="ball5 ball"></div>
+      </div>
+    </aside>
+
+  <!-- product sample section -->
+
+    <section class="product-samples-section">
+      <div class="product-samples-header">
+        <h3 class="title">Product samples</h3>
+      </div>
+      <div class="samples-box">
+        <div class="product1 product">
+          <a href=""><i class="fa fa-heart" aria-hidden="true"></i></a>
+          <div class="img-frame">
+            <a href="product.html">
+              <img src="./images/trjar.png" alt="Turkish Rose">
+            </a>
+          </div>
+          <span>Turkish Rose</span>
+          <form class="quantity">
+            <input type="radio" id="q1" name="quantity1" checked><label for="q1">9 unt.</label>
+            <input type="radio" id="q2" name="quantity1"><label for="q2">15 unt.</label>
+            <input type="radio" id="q3" name="quantity1"><label for="q3">21 unt.</label>
+          </form>
+          <span class="price-span">$49 <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+        </div>
+        <div class="product2 product">
+          <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+          <div class="img-frame">
+            <a href="product.html">
+              <img src="./images/rfjar.png" alt="Rose Flower">
+            </a>
+          </div>
+          <span>Rose Flower</span>
+          <form class="quantity">
+            <input type="radio" id="q4" name="quantity2" checked><label for="q4">9 unt.</label>
+            <input type="radio" id="q5" name="quantity2"><label for="q5">15 unt.</label>
+            <input type="radio" id="q6" name="quantity2"><label for="q6">21 unt.</label>
+          </form>     
+          <span class="price-span">$49 <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+        </div>
+        <div class="product3 product">
+          <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+          <div class="img-frame">
+            <a href="product.html">
+              <img src="./images/acjar.png" alt="Assorted Colors">
+            </a>
+          </div>
+          <span>Assorted Colors</span>
+          <form class="quantity">
+            <input type="radio" id="q7" name="quantity" checked><label for="q7">9 unt.</label>
+            <input type="radio" id="q8" name="quantity"><label for="q8">15 unt.</label>
+            <input type="radio" id="q9" name="quantity"><label for="q9">21 unt.</label>
+          </form>
+          <span class="price-span">$49 <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+        </div>
+        <div class="product4 product">
+          <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+          <div class="img-frame">
+            <a href="product.html">
+              <img src="./images/trjar.png" alt="Turkish Rose">
+            </a>
+          </div>
+          <span>Turkish Rose</span>
+          <form class="quantity">
+            <input type="radio" id="q10" name="quantity" checked><label for="q10">9 unt.</label>
+            <input type="radio" id="q11" name="quantity"><label for="q11">15 unt.</label>
+            <input type="radio" id="q12" name="quantity"><label for="q12">21 unt.</label>
+          </form>
+          <span class="price-span">$49 <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+        </div>
+        <div class="product5 product">
+          <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+          <div class="img-frame">
+            <a href="product.html">
+              <img src="./images/rfjar.png" alt="Rose Flower">
+            </a>
+          </div>
+          <span>Rose Flower</span>
+          <form class="quantity">
+            <input type="radio" id="q13" name="quantity" checked><label for="q13">9 unt.</label>
+            <input type="radio" id="q14" name="quantity"><label for="q14">15 unt.</label>
+            <input type="radio" id="q15" name="quantity"><label for="q15">21 unt.</label>
+          </form>
+          <span class="price-span">$49 <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+        </div>
+        <div class="product6 product">
+          <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+          <div class="img-frame">
+            <a href="product.html">
+              <img src="./images/acjar.png" alt="Assorted Colors">
+            </a>
+          </div>
+          <span>Assorted Colors</span>
+          <form class="quantity">
+            <input type="radio" id="q16" name="quantity" checked><label for="q16">9 unt.</label>
+            <input type="radio" id="q17" name="quantity"><label for="q17">15 unt.</label>
+            <input type="radio" id="q18" name="quantity"><label for="q18">21 unt.</label>
+          </form>
+          <span class="price-span">$49 <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+        </div>
+      </div>
+      <div class="show-more-btn">Show more</div>
+    </section>
+
+  <!-- testimonials section  -->
+
+    <section class="testimonials">
+      <div class="testimonials-bar">
+        <h3 class="title">Testimonials</h3>
+        <div class="gallery-arrows">
+          <a href="">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+          </a>
+          &nbsp;
+          <a href="">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      <div class="testimonials-box">
+        <div class="customer1 customer">
+          <div class="customer-info inner-box">
+            <div class="photo-container">
+              <img src="./images/customer1.png" alt="customer-photo">
+            </div>
+            <span>Susana</span> 
+            <span class="customer-description">Lorem ipsum dolor sit</span>
+            <i class="fa fa-vk" aria-hidden="true"></i>
+            &nbsp;
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </div> 
+          <div class="testimonial-text inner-box">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis enim facere neque pariatur tempora quibusdam, quae porro qui dolore earum dolor. Ab neque magnam quibusdam nobis odio perspiciatis expedita culpa."
+          </div>
+        </div>
+        <div class="customer2 customer">
+          <div class="customer-info inner-box">
+            <div class="photo-container">
+              <img src="./images/customer2.png" alt="customer-photo">
+            </div>
+            <span>Janneth</span> 
+            <span class="customer-description">Lorem ipsum dolor sit</span>
+            <i class="fa fa-vk" aria-hidden="true"></i>
+            &nbsp;
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </div> 
+          <div class="testimonial-text inner-box">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis enim facere neque pariatur tempora quibusdam, quae porro qui dolore earum dolor. Ab neque magnam quibusdam nobis odio perspiciatis expedita culpa."
+          </div>
+        </div>
+      </div>
+      <div class="pagination">
+          <div class="ball1 ball"></div>
+          <div class="ball2 ball"></div>
+          <div class="ball3 ball"></div>
+          <div class="ball4 ball"></div>
+          <div class="ball5 ball"></div>
+        </div>
+    </section>
+
+  <!-- footer section -->
+
+    <footer>
+      <img class="map" src="./images/map.png" alt="Where we are">
+      <nav class="footer-bar">
+        <div class="subscribe-btn">
+            <span>Subscribe to our newsletter</span>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+        </div>
+        <div class="address footer-block">
+          <span>Some street, 12</span>
+          <!-- <span class="divider">|</span> -->
+          <span>+1 (923 65 -1234)</span>
+          <!-- <span class="divider">|</span> -->
+          <span>flflowers@xmail.com</span>
+        </div>
+        <div class="other-links footer-block">
+          <a href="">Shipping return</a>
+          <a href="">Info about us</a>
+          <a href="">Discounts</a>        </div>
+        <div class="copyright footer-block">
+          <span>2020 Copyright information for this work</span>
+          <div class="card-logos">
+            <div class="card-logo">
+              <img src="./images/mastercard.png" alt="Mastercard">
+            </div>
+            <div class="card-logo card-logo2">
+              <img src="./images/visa.png" alt="Visa">
+            </div>
+            <div class="card-logo card-logo3">
+              <img src="./images/paypal.png" alt="Paypal">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </footer>
+  </main>
+</body>
+</html>

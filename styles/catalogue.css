@@ -1,0 +1,435 @@
+/* rules for the body */
+
+body {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.title {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: mistyrose;
+  text-shadow: 1px 1px magenta;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 100;
+}
+
+/* rules for the main container */
+
+.main-container {
+  position: relative;
+}
+
+/* rules for the catalogue page header */
+
+header {
+  height: 3rem;
+  width: 100%;
+  background-image: url("../images/greenbg.png");
+  background-size: auto;
+  background-position: -20rem -20rem;
+  padding-top: 0.5rem;
+}
+
+.nav-bar {
+  display: flex;
+  width: 85%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.brand-header {
+  margin-right: auto;
+}
+
+.menu {
+  display: block;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.icon-btn {
+  display: inline-block;
+  font-size: 12px;
+  padding: 0.7rem;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.menu-btn {
+  display: none;
+  padding: 0.65rem 0.7rem 0.65rem 0.7rem;
+}
+
+.like-btn,
+.menu-btn {
+  background-color: #8ed456;
+}
+
+.cart-btn {
+  background-color: #d8055a;
+}
+
+.flowers-catalogue {
+  position: relative;
+  color: black;
+  background-color: white;
+  width: 100%;
+}
+
+.page-header {
+  display: block;
+  position: relative;
+  top: 1.5rem;
+  width: 85%;
+  font-size: 1.8rem;
+  margin: 0 auto;
+}
+
+.funnel {
+  display: none;
+  position: relative;
+  text-align: center;
+  top: 2rem;
+  width: 85%;
+  font-size: 1.2rem;
+  padding: 0.7rem 0;
+  margin: 0 auto;
+  color: #55bf00;
+  border: 1px solid #55bf00;
+  border-radius: 0.3rem;
+}
+
+.main-box {
+  display: flex;
+  align-items: start;
+  position: relative;
+  top: 3rem;
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* rules for the filter box */
+
+.filter-box {
+  flex: 1;
+  background-color: #fcfcfc;
+  border: 1px solid whitesmoke;
+  margin-right: 2rem;
+  border-radius: 0.3rem;
+}
+
+.filter-box span {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1rem;
+}
+
+.spacer {
+  visibility: hidden;
+  height: 0;
+}
+
+.price-slider-frame {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.price-slider-frame img {
+  width: 100%;
+  height: auto;
+}
+
+.price-limits {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.3rem 1rem;
+}
+
+.limit {
+  width: 5rem;
+  font-size: 1rem;
+  padding: 0.3rem;
+  margin: 0;
+  border: 2px solid #55bf00;
+  border-radius: 0.4rem;
+}
+
+.color-picker {
+  display: flex;
+  justify-content: start;
+  margin: 0.3rem 1rem;
+}
+
+.color-container {
+  color: white;
+  width: 2.3rem;
+}
+
+.color {
+  display: inline-block;
+  width: 1rem;
+  font-size: 1rem;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.color1 { background: #bd4855; }
+.color2 { background: #d49315; }
+.color3 { background: #a833b9; }
+.color4 { background: #df5fa7; }
+.color5 { background: #5faddf; }
+
+.event,
+.for-whom {
+  display: inline-block;
+  width: 80%;
+  margin: 0.2rem 1rem;
+}
+
+.event span,
+.for-whom span {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 100;
+  margin: 0 0 0 0.8rem;
+}
+
+.checkmark {
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 0.1rem;
+  color: white;
+  border: 1px solid #55bf00;
+  border-radius: 0.1rem;
+  cursor: pointer;
+}
+
+.event1 .checkmark,
+.for-whom1 .checkmark {
+  color: black;
+}
+
+.show-btn {
+  text-align: center;
+  color: white;
+  font-size: 1.1rem;
+  background-color: #d8055a;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 2rem;
+  margin: 1.5rem 1rem 1rem 1rem;
+  cursor: pointer;
+}
+
+/* rules for the results box */
+
+.results-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 3;
+}
+
+.result {
+  background-color: #fcfcfc;
+  border: 1px solid whitesmoke;
+  width: 31%;
+  border-radius: 0.3rem;
+}
+
+.result1 { margin: 0 0.25rem 0.5rem 0; }
+.result2 { margin: 0 0.25rem 0.5rem 0.25rem; }
+.result3 { margin: 0 0 0.5rem 0.25rem; }
+.result4 { margin: 0.5rem 0.5rem 0 0; }
+.result5 { margin: 0.5rem 0.5rem 0 0.25rem; }
+.result6 { margin: 0.5rem 0 0 0.5rem; }
+
+.result i {
+  display: inline-block;
+  margin: 0 1rem;
+  font-size: 0.9rem;
+  color: #d8055a;
+}
+
+.img-frame {
+  position: relative;
+  width: 55%;
+  margin: 0 auto;
+}
+
+.result img {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.quantity {
+  margin: 0.3rem 1rem 0.3rem 1rem;
+}
+
+.result label {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.3rem 0.7vw 0.3rem 0.5vw;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+  transition: all 0.3s;
+}
+
+.result input[type="radio"] {
+  display: none;
+}
+
+.result input[type="radio"]:checked + label {
+  border: 2px solid #55bf00;
+}
+
+.result span {
+  display: block;
+  font-weight: 600;
+  margin: 0.4rem 1rem 0.6rem 1rem;
+}
+
+.price-span {
+  margin: 0 1rem 0.5rem 1rem;
+}
+
+.price-span i {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.pagination {
+  display: none;
+  position: relative;
+  top: 6rem;
+  width: 85%;
+  margin: auto;
+}
+
+.ball {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #dbf2bf;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+}
+
+.ball1 {
+  background: #55bf00;
+}
+
+/* media query for mobile devices screen */
+
+@media all and (max-width: 1024px) {
+  /* rules for the navigation bar */
+
+  .nav-bar {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu-btn {
+    display: inline;
+  }
+
+  .icon-btn {
+    margin: 0 1vw;
+  }
+
+  /* rules for the header  */
+
+  .page-header {
+    top: 1.2rem;
+  }
+
+  .pagination {
+    display: block;
+  }
+
+  .flowers-catalogue {
+    top: 2.3;
+    height: 50rem;
+  }
+
+  .funnel {
+    display: block;
+  }
+
+  /* rules for filter box */
+
+  .filter-box {
+    display: none;
+  }
+
+  /* rules for results box */
+
+  .result {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .img-frame {
+    position: relative;
+    width: 50%;
+    height: 45vw;
+    margin: 0 auto;
+  }
+}
+
+/* media query for small screen devices    */
+
+@media all and (max-width: 450px) {
+  .brand-header {
+    font-size: 15px;
+  }
+
+  .icon-btn {
+    font-size: 10px;
+    padding: 8px;
+  }
+
+  .header {
+    top: 1vh;
+  }
+
+  .flowers-catalogue {
+    top: 2.5;
+  }
+
+  .page-header {
+    top: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .main-box {
+    top: 2.5rem;
+  }
+}
