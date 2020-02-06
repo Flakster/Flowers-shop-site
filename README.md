@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple example steps:
 
 ## [Homepage of the project](https://github.com/Flakster/Flowers-shop-site/)
 
-## See a live demo [here](https://rawcdn.githack.com/Flakster/Flowers-shop-site/8a12b1306e2971c6dc95f4138e57ddc87961954f/index.html)
+## See a live demo [here](https://flakster.github.io/Flowers-shop-site/index.html)
 
 ## Watch a video with the presentation of the project [here](https://www.loom.com/share/1d43cd76d86240d48f5f34a0e5fdcef6)
 
