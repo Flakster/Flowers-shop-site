@@ -78,7 +78,11 @@ To get a local copy up and running follow these simple example steps:
 
         Homepage                     Catalogue                         Product page  
   ![FS-mobile](https://user-images.githubusercontent.com/53324035/73669537-a0bbc680-4675-11ea-8f15-f4882cc647d0.png)
+  
+## Potential future features
 
+ * Use of actual form elements instead of placeholders
+ * Javascript for calculatiog the order total
 
 ## Validators:
 
