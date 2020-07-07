@@ -82,7 +82,7 @@ To get a local copy up and running follow these simple example steps:
 ## Potential future features
 
  * Use of actual form elements instead of placeholders
- * Javascript for calculatiog the order total
+ * Javascript for calculating the order total
 
 ## Validators:
 
